@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Assistente IA da Kika",
+  "version": "1.0",
+  "description": "Lê a página atual e processa com o Gemini.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
